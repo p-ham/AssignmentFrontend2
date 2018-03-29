@@ -1,0 +1,20 @@
+{
+  "players": [
+    {
+      "name": "Magnus Carlsen",
+      "bio": "Magnus Øen Carlsen (* 30. November 1990 in Tønsberg) ist ein norwegischer Schachspieler und seit 2013 Schachweltmeister. ",
+      "slug": "magnus",
+      "date": "1990-11-30",
+      "wiki": "https://de.wikipedia.org/wiki/Magnus_Carlsen",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/15-10-10-Magnus_Carlsen-RalfR-N3S_2364.jpg/330px-15-10-10-Magnus_Carlsen-RalfR-N3S_2364.jpg"
+    },
+    {
+      "name": "Sergej Karjakin",
+      "bio": "Sergei Alexandrowitsch Karjakin (russisch Сергей Александрович Карякин, wiss. Transliteration Sergej Aleksandrovič Karjakin, ukrainisch Сергій Карякін / Serhij Karjakin; Sergey Karjakin (FIDE-Schreibweise); * 12. Januar 1990 in Simferopol, Ukrainische SSR, Sowjetunion) ist ein Schach-Großmeister, der bis 2009 für die Ukraine spielte und seitdem für Russland. Er war der Herausforderer von Weltmeister Magnus Carlsen bei der Schachweltmeisterschaft 2016. ",
+      "slug": "sergej",
+      "date": "1990-01-12",
+      "wiki": "https://de.wikipedia.org/wiki/Sergei_Alexandrowitsch_Karjakin",
+      "pic": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Sergey_Karjakin_%282017-07-06%29_02.jpg/375px-Sergey_Karjakin_%282017-07-06%29_02.jpg"
+    }
+  ]
+}
