@@ -1,0 +1,28 @@
+<h2><a href="{{ url }}">{{ givenName }} {{ familyName }}</a></h2>
+<ul>
+  <li>Nationality: {{ nationality }} </li>
+  <li>Age: {{ age dateOfBirth }} </li>
+</ul>
+<h2>Constructors: </h2>
+<ul>
+  {{#each constructors}}
+    <li>
+      <a href="../constructor/{{ constructorId }}">{{ name }} </a>
+    </li>
+  {{/each}}
+</ul>
+<h2>Results: </h2>
+<table style="width:50%" class="table table-hover">
+  <tr>
+    <th>Race</th>
+    <th>Date</th>
+    <th>Position</th>
+  </tr>
+  {{#each races}}
+  <tr>
+    <td>{{ Circuit.circuitName}}</td>
+    <td>{{ date }}</td>
+    <td>{{ Results.0.position }}</td>
+  </tr>
+  {{/each}}
+</table>
