@@ -1,0 +1,15 @@
+# system
+.DS_Store
+
+# IDE
+.idea/
+
+# node.js
+01-templates/node_modules/
+02-api/node_modules/
+03-choo/node_modules/
+
+# build
+01-templates/dist/
+02-api/dist/
+03-choo/dist/
