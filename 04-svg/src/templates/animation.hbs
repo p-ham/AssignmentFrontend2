@@ -1,0 +1,38 @@
+<h3>Animation</h3>
+<div class="row">
+  <div class="col-sm-12">
+    <svg class="svg-animation" viewBox="0 0 900 550">
+      <!-- linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px), -->
+      <style>
+        .svg-animation {
+          background:
+            linear-gradient(45deg, rgb(18, 240, 166) 12%, transparent 0, transparent 88%, rgb(18, 240, 166) 0),
+            linear-gradient(135deg, transparent 37%, rgb(221, 255, 98)  0, rgb(221, 255, 98) 63%, transparent 0),
+            linear-gradient(45deg, transparent 37%, rgb(18, 240, 166) 0, rgb(18, 240, 166) 63%, transparent 0) rgb(238, 22, 227);
+            background-size: 25px 25px;
+        }
+
+        .svg-animation { animation: move 2s linear  infinite; }
+
+        @keyframes move {
+          100% { background-position:25px 25px; }
+        }
+
+        #pathSVG {
+            stroke-dasharray: 1800;
+            stroke-dashoffset: 1900;
+            animation: dash 4s linear alternate infinite;
+        }
+
+        @keyframes dash {
+          100% { stroke-dashoffset: 0;}
+        }
+
+      </style>
+      <g class="logo" fill="none" stroke="#111" stroke-width="50px" stroke-linecap="round" stroke-linejoin="round">
+        <path id="pathSVG" d="M150 50 L 150 450 Q 25 450 25 362.5 Q 25 287.5 125 287.5 L 300 287.5 Q 425 287.5 425 200 Q 425 122.5 300 122.5 L 300 522.5"/>
+      </g>
+
+    </svg>
+  </div>
+</div>
