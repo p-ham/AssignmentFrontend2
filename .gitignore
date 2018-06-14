@@ -7,11 +7,11 @@
 # node.js
 01-templates/node_modules/
 02-api/node_modules/
-03-choojs/node_modules/
+03-choo/node_modules/
 04-svg/node_modules/
 
 # build
 01-templates/dist/
 02-api/dist/
-03-choojs/dist/
+03-choo/dist/
 04-svg/dist/
