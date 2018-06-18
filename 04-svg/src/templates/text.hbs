@@ -22,11 +22,17 @@
   </div>
 </div>
 
+<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
 <h4>Fancy Text</h4>
 <div class="row">
   <div class="col-sm-12">
     <svg class="svg-text" viewBox="0 0 900 450">
-
+      <path id="path">
+        <animate attributeName="d" from="m0 50 h0" to="m0 50 h400" dur="2s" begin="0s" repeatCount="indefinite"/>
+      </path>
+      <text font-size="26" font-family="Merienda One" fill='MediumAquamarine'>
+          <textPath xlink:href="#path">Tabs > Spaces!</textPath>
+      </text>
     </svg>
   </div>
 </div>
